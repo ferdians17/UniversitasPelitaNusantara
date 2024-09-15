@@ -11,8 +11,14 @@ begin
 	writeln('Masukkan nilai B =');
 	readln(b);
 
-	c := a+b;
+	writeln('A = ', a);
+	writeln('B = ', b);
 
-	writeln('A = ', a, ' + B = ', b, ' = ', c);
+	c := a+b;
+	writeln(a, ' + ', b, ' = ', c);
+
+
+	c := a * b;
+	writeln(a, ' * ', b, ' = ', c);
 	readln;
 end.
